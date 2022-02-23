@@ -1,10 +1,5 @@
 import { footerStyles as stls } from './footerStyles'
-import {
-  Container,
-  Row,
-  Column,
-  Footer as FooterPostonents
-} from 'postonents'
+import { Container, Row, Column, Footer as FooterPostonents } from 'postonents'
 
 const Footer = () => {
   return (
@@ -12,7 +7,8 @@ const Footer = () => {
       <Container alignment='center'>
         <Row>
           <Column>
-            &copy; {new Date().getFullYear()} Институт Профессионального Образования
+            &copy; {new Date().getFullYear()} Московский Институт
+            Профессионального Образования
           </Column>
         </Row>
       </Container>

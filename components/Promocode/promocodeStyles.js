@@ -1,54 +1,56 @@
-const PromocodeStyles = {
+const promocodeStyles = {
   container: {
-    // marginTop: '-28px'
-    marginBottom: '50px',
-    backgroundColor: '#222222'
+    marginTop: '10px',
+    marginBottom: '20px'
   },
   fullwidth: {
-    minWidth: '100%',
-    width: '100%'
+    width: '100%',
+    height: '100%'
+  },
+  column: {
+    backgroundColor: '#002C9F',
+    backgroundImage:
+      "url('https://res.cloudinary.com/npoipe/image/upload/v1645610023/email-template-defenders-day/decoration_ueuuy3.png')",
+    backgroundRepeat: 'no-repeat',
+    minWidth: '600px',
+    width: '600px',
+    height: '100%',
+    paddingRight: '20px',
+    paddingBottom: '40px',
+    paddingLeft: '20px',
+    borderRadius: '20px'
   },
   title: {
-    marginBottom: '11px',
-    marginLeft: '-12px',
-    fontSize: '15px',
-    fontWeight: 500,
-    lineHeight: '20px',
+    margin: 0,
+    paddingTop: '172px',
     textAlign: 'center',
+    fontSize: '20px',
+    fontWeight: 500,
+    lineHeight: '120%',
     color: '#fff'
   },
   p: {
-    width: '100%',
-    maxWidth: '205px',
-    margin: '20px auto',
-    padding: '10px',
-    border: '2px dashed #fff',
-    fontSize: '18px',
-    fontWeight: 700,
-    lineHeight: '21px',
+    margin: 0,
+    paddingTop: '27px',
+    paddingBottom: '30px',
     textAlign: 'center',
-    backgroundColor: '#414141',
-    color: '#F9CF3B'
-  },
-  ppromo: {
     fontSize: '18px',
-    fontWeight: 700,
-    lineHeight: '21px',
-    textAlign: 'center',
-    color: '#F9CF3B'
+    fontWeight: 300,
+    lineHeight: '157%',
+    color: '#fff'
   },
   btn: {
     display: 'block',
-    margin: '25px auto',
+    margin: '0 auto',
     width: '100%',
-    maxWidth: '205px',
-    padding: '11px 30px',
+    maxWidth: '234px',
+    padding: '16px 30px',
     textAlign: 'center',
     fontSize: '15px',
     fontWeight: 500,
-    lineHeight: '19px',
+    lineHeight: '21px',
     borderRadius: '5px',
-    backgroundColor: '#F9CF3B',
+    backgroundColor: '#FFBB33',
     color: '#000000'
   },
   link: {
@@ -56,4 +58,4 @@ const PromocodeStyles = {
   }
 }
 
-export { PromocodeStyles }
+export { promocodeStyles }

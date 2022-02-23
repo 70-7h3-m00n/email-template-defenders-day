@@ -4,7 +4,7 @@ const EmailWrapper = ({ children }) => {
   return (
     <Email
       lang='ru'
-      title='МИПО - Премия за объем продаж и iPhone 13 PRO'
+      title='23 февраля, праздник мужчин больших и маленьких'
       headStyles="
     @font-face{
       font-display: swap;
@@ -39,7 +39,7 @@ const EmailWrapper = ({ children }) => {
       font-weight: 700;
     }
     body { 
-      background-color: white; 
+      background-color: #F2F2F2; 
     }
   "
       // headLinks={[

@@ -5,7 +5,7 @@ const headerLogoStyles = {
     fontSize: '14px',
     lineHeight: '16px',
     textAlign: 'center',
-    backgroundColor: '#242935',
+    backgroundColor: '#002C9F',
     color: '#fff'
   }
 }
